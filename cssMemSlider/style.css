@@ -92,3 +92,37 @@ input[type="radio"]:not(:checked) ~ .slide_bottom p {
 .slider_controls label.active .dot {
     background-color: transparent;
 }
+
+@media (max-width: 768px) {
+    .slider_container {
+        max-width: 90vw;
+        margin: 0 auto;
+    }
+
+    .slide_img {
+        height: 50vh;
+    }
+    
+    .slide_img img {
+        max-height: 50vh;
+    }
+
+    .slide_bottom {
+        flex-direction: column-reverse;
+    }
+
+    .slider_controls {
+        align-self: center;
+        margin: 5% 0;
+    }
+
+    .slider_controls label {
+        padding: 3vw 2vw 3vw 2vw;
+    }
+
+    .slider_controls label .dot {
+        width: 2.5vw;
+        height: 2.5vw;
+        align-self: center;
+    }    
+}
