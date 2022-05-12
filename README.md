@@ -1,1 +1,1 @@
-# https://Snake911.github.io/cssMemSlider/cssMemSlider/index.html
+# [cssMemSlider](https://Snake911.github.io/cssMemSlider/cssMemSlider/index.html)
